@@ -40,7 +40,7 @@ public class SplashActivity extends AppCompatActivity {
 
     private void startAnim() {
         //渐变动画，从完全透明到不透明
-        AlphaAnimation alphaAnimation = new AlphaAnimation(0, 1);
+        AlphaAnimation alphaAnimation = new AlphaAnimation(0.2f,1f);
         //设置动画时间为2秒
         alphaAnimation.setDuration(2000);
         //动画结束后，保持动画2秒

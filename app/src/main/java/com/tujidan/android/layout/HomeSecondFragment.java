@@ -20,8 +20,8 @@ public class HomeSecondFragment extends Fragment {
     public HomeSecondFragment() {
     }
 
-    public static HomeFifthFragment newInstance(String param1) {
-        HomeFifthFragment fragment = new HomeFifthFragment();
+    public static HomeSecondFragment newInstance(String param1) {
+        HomeSecondFragment fragment = new HomeSecondFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         fragment.setArguments(args);

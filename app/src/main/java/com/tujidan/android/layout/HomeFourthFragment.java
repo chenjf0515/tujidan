@@ -22,8 +22,8 @@ public class HomeFourthFragment extends Fragment {
     private static final String ARG_PARAM2 = "param2";
 
 
-    public static HomeFifthFragment newInstance(String param1) {
-        HomeFifthFragment fragment = new HomeFifthFragment();
+    public static HomeFourthFragment newInstance(String param1) {
+        HomeFourthFragment fragment = new HomeFourthFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         fragment.setArguments(args);

@@ -19,8 +19,8 @@ public class HomeThirdFragment extends Fragment {
     public HomeThirdFragment() {
     }
 
-    public static HomeFifthFragment newInstance(String param1) {
-        HomeFifthFragment fragment = new HomeFifthFragment();
+    public static HomeThirdFragment newInstance(String param1) {
+        HomeThirdFragment fragment = new HomeThirdFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         fragment.setArguments(args);
@@ -34,6 +34,7 @@ public class HomeThirdFragment extends Fragment {
 
         }
     }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
